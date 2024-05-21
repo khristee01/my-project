@@ -51,11 +51,13 @@ const filteredcoins  = coins.filter(coin =>
   if (loading){
     return <Loader/>
   }
+  
 
   return (
-  
+    
    
  <>
+ 
       {!simplified &&(
          <div className='search-crypto'>
          <input type="text" placeholder='Search cryptos' onChange={handleSearchTermChange} value={searchTerm} />
@@ -89,6 +91,7 @@ const filteredcoins  = coins.filter(coin =>
   
   
   )
+
    
 }
 

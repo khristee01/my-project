@@ -6,10 +6,12 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import "antd/dist/reset.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-
+<StrictMode>
 <Router>
-  <App />
+<App />
   </Router>
+</StrictMode>
+  
 
 
   

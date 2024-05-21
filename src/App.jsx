@@ -60,13 +60,14 @@ const App = () => {
         <Navbar/>
         
       </div>
+      
       <div className='main'>
         <Layout >
           
           <div className='routes'>
           
             <Routes>
-              <Route path='/' element={<Homepage />}/> 
+              <Route exact path={"/my-project"} element={<Homepage />}/> 
               <Route path='/cryptocurrencies' element={<Cryptocurrencies />}/>  
               <Route path='/exchanges' element={<Exchanges/>}/>
               <Route path={`/crypto/:currencyUuid`} element={<CryptoDetails  />}/> 
@@ -74,8 +75,10 @@ const App = () => {
 
               
             </Routes>
-           
-             
+            
+            
+        
+      
             
           </div>
 

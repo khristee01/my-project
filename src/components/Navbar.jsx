@@ -43,7 +43,7 @@ const Navbar = () => {
         
         <Menu theme='dark'>
             <Menu.Item icon={<HomeOutlined/>}>
-                <Link to='/'>Home</Link>
+                <Link to='/my-project'>Home</Link>
             </Menu.Item>
                     
             <Menu.Item icon={<FundOutlined/>}>
